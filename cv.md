@@ -41,3 +41,9 @@ Example of my projects
 [Rotating Navigation](https://azizshik.github.io/50Days50Projects/3Day-RotatingNavigation/)
 [Theme Clock](https://azizshik.github.io/50Days50Projects/19Day-ThemeClock/)
 [Github User Search](https://azizshik.github.io/50Days50Projects/28Day-GithubProfiles/)
+
+## Education:
+
+- Watching videos on YouTube and leaked courses (͡° ͜ʖ ͡°)
+- At the moment I am reading 'Learning JavaScript' Ethan Brown
+- RS School
