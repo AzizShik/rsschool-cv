@@ -1,11 +1,11 @@
-# Abdyl-Aziz Shikhabov
+# Abdul-Aziz Shikhabov
 
 ![Avatar](https://sun9-41.userapi.com/impg/uyTD3oP1GxFLjfUHlWTVxdmsliFVgVU4gMBPeA/oYtlC0npWH8.jpg?size=864x1152&quality=96&sign=5fd3c04796f86ea96e8eb199f92654e4&type=album)
 
 ## My contacts:
 
 [Github](https://github.com/AzizShik)
-[Telegram](https://t.me/abdyl_aziz)
+[Telegram](https://t.me/abdul_aziz95)
 [VK](https://vk.com/id632704065)
 
 ## About me:
