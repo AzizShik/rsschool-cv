@@ -1,3 +1,26 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url('fonts/OpenSans-Regular.woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('fonts/Oswald-Bold.woff');
+  font-weight: 700;
+}
+
+
 * {
   box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
 }
