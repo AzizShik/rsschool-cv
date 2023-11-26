@@ -56,3 +56,7 @@ Example of my projects
 
 - Russian
 - English (B1)
+
+## Hobbies:
+
+In my free time I like to play chess. If you want to play with me [My Lichess.com profile](https://lichess.org/@/SHAAS_2003)
