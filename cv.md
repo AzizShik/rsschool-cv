@@ -51,3 +51,8 @@ Example of my projects
 - Watching videos on YouTube and leaked courses (͡° ͜ʖ ͡°)
 - At the moment I am reading 'Secrets of the JavaScript Ninja' John Resig and Bear Bibeault
 - RS School JavaScript/Front-end 2023Q4 (in process...)
+
+## Languages:
+
+- Russian
+- English (B1)
