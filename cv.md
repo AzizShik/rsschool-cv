@@ -59,5 +59,10 @@ const twoSum = function (nums, target) {
 ## Courses
 
 - Youtube
-- Udemy 
+- Udemy
 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+## Languages
+
+- Russian
+- English B1
