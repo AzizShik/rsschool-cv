@@ -34,7 +34,7 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 Example 2: <br>
 
 Input: nums = [3,2,4], target = 6
-Output: [1,2]  <br>
+Output: [1,2] <br>
 
 Example 3: <br>
 
@@ -55,3 +55,9 @@ const twoSum = function (nums, target) {
     return [];
 };
 ```
+
+## Courses
+
+- Youtube
+- Udemy 
+- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
