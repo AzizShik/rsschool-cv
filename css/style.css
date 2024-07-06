@@ -56,6 +56,7 @@ h3 {
 .container {
 	max-width: 1330px;
 	width: 100%;
+	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
 }
@@ -263,8 +264,55 @@ h3 {
 		fill: #c0c0c0;
 	}
 	.contacts__list-item-link:active svg path {
-		color: #7e7e7e;
+		fill: #7e7e7e;
 	}
+
+	.footer__link svg path {
+		transition: all 0.3s ease;
+	}
+
+	.footer__link:hover {
+		color: #c0c0c0;
+	}
+
+	.footer__link:hover svg path {
+		fill: #c0c0c0;
+	}
+
+	.footer__link:active svg path {
+		fill: #7e7e7e;
+	}
+}
+
+.footer {
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
+
+.footer__github {
+	font-size: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	transition: all 0.3s ease;
+}
+
+.container {
+}
+
+.footer__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__year {
+}
+
+.title {
+}
+
+.footer__link {
 }
 
 @media (max-width: 991px) {
