@@ -37,7 +37,7 @@
           </li>
         </ul>
       </nav>
-      <button class="header__burger" aria-label="Main Menu">
+      <button class="header__burger" aria-label="Main Menu" type="button">
         <svg width="50" height="50" viewBox="0 0 100 100">
           <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
           <path class="line line2" d="M 20,50 H 80" />
@@ -80,11 +80,12 @@ Input: nums = [3,3], target = 6
 Output: [0,1] <br>
 
 Only one valid answer exists.
+</p>
 
 <pre><code class="language-html">
   const twoSum = function (nums, target) {
-    for (let i = 0; i < nums.length; i++) {
-        for (let j = i+1; j < nums.length; j++) {
+    for (let i = 0; i &lt; nums.length; i++) {
+        for (let j = i+1; j &lt; nums.length; j++) {
             if (nums[i] + nums[j] === target) {
                 return [i,j]
             }
@@ -93,7 +94,7 @@ Only one valid answer exists.
     return [];
 };
 </code></pre>
-          </p>
+
         </div>
       </section>
     </div>
