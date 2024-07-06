@@ -246,6 +246,15 @@ h3 {
 .languages__list-item {
 }
 
+.skills__list-item-icon svg {
+	width: 24px;
+	height: 24px;
+}
+
+.skills__list-item-icon svg path{
+	fill: #fff;
+}
+
 .projects {
 }
 .container {
@@ -359,6 +368,8 @@ h3 {
 
 .footer__link {
 }
+
+
 
 @media (max-width: 991px) {
 	body {
