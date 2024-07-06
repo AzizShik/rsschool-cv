@@ -285,7 +285,9 @@ h3 {
 }
 
 .footer {
-	margin-top: 40px;
+	border-top: 1px solid grey;
+	margin-top: 20px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
@@ -332,9 +334,28 @@ h3 {
 	.main__block:nth-child(1) {
 		width: 100%;
 	}
+
+	.footer__inner {
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.footer__github {
+		justify-content: start;
+	}
+
+	.title {
+		font-size: 29px;
+	}
 }
 
 @media (max-width: 767px) {
+	.title {
+		font-size: 26px;
+		margin-bottom: 10px;
+		padding-top: 10px;
+	}
+
 	.header {
 	}
 
@@ -371,6 +392,10 @@ h3 {
 }
 
 @media (max-width: 480px) {
+	.title {
+		font-size: 23px;
+	}
+
 	body {
 		font-size: 16px;
 	}
