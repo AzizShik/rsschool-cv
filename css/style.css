@@ -11,7 +11,7 @@
 }
 
 .lock body {
-  overflow: hidden;
+	overflow: hidden;
 	margin: 0;
 	max-height: 100vh;
 }
@@ -22,14 +22,15 @@ body {
 }
 
 html {
-	background: #f1f1f1;
+	background: #333;
 }
 
 body {
 	font-family: 'Montserrat', 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 21px;
-	color: #000;
+	line-height: 150%;
+	color: #fff;
 }
 
 ul,
@@ -42,6 +43,13 @@ li {
 a {
 	text-decoration: none;
 	color: inherit;
+}
+
+h1,
+h2,
+h3 {
+	margin: 0;
+	padding: 0;
 }
 
 .container {
@@ -57,6 +65,7 @@ a {
 
 	/* position: absolute;
 	width: 100%; */
+	border-bottom: 1px solid grey;
 }
 
 .header__nav {
@@ -140,6 +149,99 @@ a {
 	stroke-width: 3;
 }
 
+.main {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 15px;
+	gap: 25px;
+}
+
+.main section {
+	margin-bottom: 20px;
+}
+
+.main__block {
+	width: 50%;
+}
+
+.main__block:nth-child(1) {
+	width: 75%;
+}
+
+.about {
+}
+
+.about__title {
+}
+
+.title {
+	font-size: 32px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.title:before {
+	content: '';
+	position: absolute;
+	bottom: -3px;
+	width: 25px;
+	height: 3px;
+	background: #fff;
+}
+
+.about__descr {
+}
+.code {
+}
+.code__title {
+}
+.code__descr {
+}
+.contacts {
+}
+.contacts__title {
+}
+.contacts__img {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.contacts__name {
+}
+.contacts__list {
+	display: flex;
+	max-width: 200px;
+	width: 100%;
+	justify-content: space-between;
+	gap: 15px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+.contacts__list-item {
+}
+.contacts__list-item-link {
+}
+.courses {
+}
+.courses__title {
+}
+.courses__list {
+}
+.courses__list-item {
+}
+.languages {
+}
+.languages__title {
+}
+.languages__list {
+}
+.languages__list-item {
+}
+
 @media (hover: hover) {
 	.header__nav-list-item-link:hover {
 		color: #c0c0c0;
@@ -149,6 +251,17 @@ a {
 	}
 
 	.header__nav-list-item-link:active {
+		color: #7e7e7e;
+	}
+
+	.contacts__list-item-link svg path {
+		transition: all 0.3s ease;
+	}
+
+	.contacts__list-item-link:hover svg path {
+		fill: #c0c0c0;
+	}
+	.contacts__list-item-link:active svg path {
 		color: #7e7e7e;
 	}
 }
