@@ -1,4 +1,4 @@
-const body = document.querySelector('html');
+const body = document.documentElement;
 const headerBurger = document.querySelector('.header__burger');
 const headerNav = document.querySelector('.header__nav');
 const headerNavList = document.querySelector('.header__nav-list');
@@ -13,15 +13,6 @@ const burgerCloseTransform = [
   { transform: 'translateX(100%)' },
 ];
 
-// const burgerOpenTransform = [
-// 	{ opacity: '0%' },
-// 	{ opacity: '100%' },
-// ];
-// const burgerCloseTransform = [
-// 	{ opacity: '100%' },
-// 	{ opacity: '0%' },
-// ];
-
 const burgerTiming = {
   duration: 250,
   iterations: 1,
@@ -33,7 +24,7 @@ function closeBurger() {
   body.classList.remove('lock');
 }
 
-function OpenBurger() {
+function openBurger() {
   headerNav.classList.add('header__nav--active');
   headerBurger.classList.add('header__burger--active');
   body.classList.add('lock');
@@ -50,14 +41,8 @@ headerBurger.addEventListener('click', (e) => {
       closeBurger();
     });
   } else {
-    OpenBurger();
+    openBurger();
   }
-
-  // if (el.classList.contains('header__burger--active')) {
-  //   closeBurger();
-  // } else {
-  //   OpenBurger();
-  // }
 });
 
 headerNav.addEventListener('click', (e) => {
